@@ -11,3 +11,20 @@ def func():
 
 
 func()
+
+
+# using for loop find the common characters
+
+a1 = input("Enter the first string:")
+a2 = input("Enter the second string:")
+
+common_char = ""
+
+for char1 in a1:
+    for char2 in a2:
+        if char1 == char2:
+            common_char += char1
+
+print("common_characters:", common_char)
+
+
